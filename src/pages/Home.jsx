@@ -671,29 +671,8 @@ export default function Home() {
                 <div className="absolute inset-2 bg-[#B8860B]/20 border border-[#B8860B]/30 rounded-2xl -rotate-1" />
                 <div className="relative bg-white rounded-2xl p-8 shadow-xl w-full mx-4">
                   <div className="flex items-center gap-3 mb-6">
-                    <div className="w-10 h-10 rounded-full bg-[#0F172A] flex items-center justify-center">
-                      <svg
-                        width="18"
-                        height="18"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                      >
-                        {[0, 45, 90, 135, 180, 225, 270, 315].map((deg, i) => (
-                          <line
-                            key={i}
-                            x1="10"
-                            y1="3.5"
-                            x2="10"
-                            y2="2"
-                            stroke="#B8860B"
-                            strokeWidth="1.2"
-                            strokeLinecap="round"
-                            transform={`rotate(${deg} 10 10)`}
-                          />
-                        ))}
-                        <circle cx="10" cy="10" r="3" fill="#B8860B" />
-                        <circle cx="10" cy="10" r="1.5" fill="#0F172A" />
-                      </svg>
+                    <div className="w-10 h-10 rounded-full  flex items-center justify-center">
+                        <img src="/logo.jpg" alt="logo" />
                     </div>
                     <div>
                       <p className="font-bold text-slate-900 text-sm">
