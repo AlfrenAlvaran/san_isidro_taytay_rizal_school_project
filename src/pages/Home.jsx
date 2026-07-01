@@ -548,7 +548,7 @@ export default function Home() {
                 Barangay Services
               </h2>
               <a
-                href="#"
+                href="services"
                 className="text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors flex items-center gap-1"
               >
                 View all
